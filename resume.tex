@@ -1,0 +1,258 @@
+\documentclass[letterpaper,11pt]{article}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\usepackage{hyperref} % Add hyperlinks
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+}
+\input{glyphtounicode}
+\usepackage{xcolor}
+\color{black} % Add this line to set the text color
+
+
+%----------FONT OPTIONS----------
+% serif
+\usepackage{CormorantGaramond}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+\begin{center}
+    {\Huge \scshape A. Vivek Vardhan} \\ \vspace{1pt}
+    \small 
+    \href{tel:917989325150}{\raisebox{-0.1\height}\faPhone\  +91 7989325150} ~ \href{mailto:vivekvardhan.akula@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{vivekvardhan.akula@gmail.com}} ~ 
+    \href{https://www.linkedin.com/in/vivek-vardhan-084166210/}{\raisebox{-0.2\height}\faLinkedin\ \underline{linkedin.com/in/vivek-vardhan-084166210}}  ~
+    \vspace{-6pt}
+\end{center}
+
+
+
+% \section{Summary of Qualifications}
+% \begin{itemize}[leftmargin=0.15in, label={}]
+%     \small{
+%       \item{
+%         Results-driven Full Stack Developer with expertise in Django, Python, and JavaScript.
+%       }
+%       \item{
+%         Proven track record of developing dynamic e-commerce platforms, improving user experiences, and implementing effective CI/CD pipelines.
+%       }
+%     }
+%  \end{itemize}
+%  \vspace{-16pt}
+
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {\textbf{Bachelor of Technology in Information Technology}}{\textbf{2020-2023}}
+      {\textbf{MLR Institute of Technology, Hyderabad, Telangana}}{\textbf{CGPA: 6.90/10}}
+    \resumeSubheading
+      {\textbf{Diploma in Electrical \& Electronics Engineering}}{\textbf{2017-2020}}
+      {\textbf{Singareni Collieries Polytechnic, Telangana}}{\textbf{CGPA: 7.12/10}}
+    \resumeSubheading
+      {\textbf{SSC}}{\textbf{2016-2017}}
+      {\textbf{Sachdeva School Of Excellence, Telangana}}{\textbf{CGPA: 8.7/10}}
+  \resumeSubHeadingListEnd
+
+
+\section{Projects}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+        \resumeProjectHeading
+          {\textbf{System Design and Architecture for Online Food Delivery Application} $|$ \emph{AWS, MongoDB, ReactJS, Node.js}}{September 2024}
+          \resumeItemListStart
+            \resumeItem{Conducted research and planning for a scalable, high-performance, and secure online food delivery system.}
+            \resumeItem{Designed a scalable architecture for high availability and reliability.}
+            \resumeItem{Proposed performance optimization strategies to\textbf{ reduce page load time by 30\%.}}
+            \resumeItem{Developed a blueprint for real-time tracking and secure payment integration.}
+            \resumeItem{Outlined data management and analytics tools for performance insights.}
+            \resumeItem{Implemented robust security measures and seamless API integration.}
+            \resumeItem{Utilized \textbf{Agile} and \textbf{Scrum methodologies} for project management and cross-functional collaboration.}
+          \resumeItemListEnd
+           \vspace{-16pt}
+    \resumeSubHeadingListEnd
+
+
+
+
+
+\resumeProjectHeading
+    {\textbf{I-Shop (E-Commerce Platform)} $|$ \emph{React, Node.js, Express, MongoDB, Axios, Formik, Bootstrap}}{October 2024}
+    \resumeItemListStart
+        \resumeItem{Developed a high-performance, secure e-commerce platform with features like product search, multi-currency cart, and real-time inventory management.}
+        \resumeItem{Implemented secure registration and login, \textbf{enhancing data security by 40\%.}}
+        \resumeItem{Designed efficient product search and browsing, \textbf{reducing search time by 30\%.}}
+        \resumeItem{Developed a multi-currency cart, increasing international \textbf{customer reach by 15\%.}}
+        \resumeItem{Integrated diverse payment options and a shipping calculator for a seamless checkout experience.}
+        \resumeItem{Built a comprehensive dashboard for product and order management, \textbf{improving administrative efficiency by 50\%.}}
+        \resumeItem{Created secure\textbf{ RESTful APIs} for reliable data exchange with minimal response times.}
+    \resumeItemListEnd
+    \vspace{-16pt}
+
+
+    
+\resumeProjectHeading
+    {\textbf{Video Management Platform} $|$ \emph{MERN (MongoDB, Express, React, Node.js), Redux Toolkit, Jest, Postman}}{August 2024}
+    \resumeItemListStart
+        \resumeItem{Developed a comprehensive video management system with features such as video upload, categorization, and analytics tracking.}
+        \resumeItem{Designed and developed front-end and back-end components.}
+        \resumeItem{Implemented state management with \textbf{Redux Toolkit} and conducted thorough testing.}
+        \resumeItem{Optimized database queries and server-side logic.}
+    \resumeItemListEnd
+    \vspace{-16pt}
+
+
+    
+\resumeProjectHeading
+    {\textbf{To-Do Application} $|$ \emph{MERN (MongoDB, Express, React, Node.js) with TypeScript, Redux Toolkit, Jest}}{July 2024}
+    \resumeItemListStart
+        \resumeItem{Built a feature-rich to-do application using the MERN stack with \textbf{TypeScript.}}
+        \resumeItem{Developed modules for user registration and appointment scheduling.}
+        \resumeItem{Led development of client-side and server-side features.}
+        \resumeItem{Implemented comprehensive testing strategies and integrated \textbf{RESTful APIs.}}
+        \resumeItem{Implemented user authentication and authorization using \textbf{cookies} and \textbf{JWT}, enhancing application security.}
+    \resumeItemListEnd
+    \vspace{-16pt}
+
+
+
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{
+      \item{
+        \textbf{Languages}{: C, C++, JavaScript (ES7), TypeScript} \\
+        \textbf{Frameworks/Libraries}{: React, Redux Toolkit, Node.js, Express, MongoDB, MySQL} \\
+        \textbf{Tools}{: Git, Webpack, Babel, ESLint, Postman} \\
+        \textbf{Testing}{: Jest, React Testing Library} \\
+        \textbf{Others}{: RESTful APIs, Agile Methodologies, CI/CD, AWS} \\
+      }
+    }
+ \end{itemize}
+ \vspace{-16pt}
+
+
+
+\section{Courses and Certificates}
+    \resumeSubHeadingListStart
+        \resumeSubheading
+            {AI and Machine Learning Workshop}{E-CELL IIT Hyderabad and Techobytes Technologies}
+            {Completion Date: February 2024}{}
+        \resumeSubheading
+            {Communication Masterclass}{Thinkschool}
+            {Duration: (July 2023 - January 2024)}{}
+        \resumeSubheading
+            {Introduction to JavaScript Course}{Coding Ninjas}
+            {Duration: (February 2021 - April 2021)}{}
+        \resumeSubheading
+            {Introduction to Git and GitHub}{Udemy}
+            {Duration: (1 Month)}{}
+    \resumeSubHeadingListEnd
+
+    \section{Soft Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+    \small{
+      \item{\textbf{Communication Skills:} Effectively convey information both verbally and non-verbally. \textit{Demonstrated through completion of Thinkschool’s Communication Masterclass, which enhanced my engagement and clarity in team projects.}}
+      
+      \item{\textbf{Adaptability:} Quickly adjust to new changes and embrace learning opportunities. \textit{Demonstrated through completion of the AWS Cloud Practitioner course, facilitating effective implementation of scalable cloud solutions.}}
+      
+      \item{\textbf{Teamwork:} Collaborate effectively with diverse groups. \textit{Demonstrated through serving as Scrum Master for an online food delivery system project, leading to a 30\% reduction in page load time by resolving team impediments.}}
+      
+      \item{\textbf{Problem Solving:} Identify and implement effective solutions to challenges. \textit{Demonstrated through resolving a critical deadlock in a video management system project by optimizing database queries, ensuring timely completion and client satisfaction.}}
+      
+      \item{\textbf{Attention to Detail:} Ensure accuracy and thoroughness in work. \textit{Demonstrated through implementing comprehensive testing strategies and secure RESTful APIs in a to-do application, enhancing security and reliability with positive user feedback.}}
+    }
+\end{itemize}
+
+
+\end{document}
