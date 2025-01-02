@@ -1,11 +1,17 @@
 # 👨‍💻 A. Vivek Vardhan
 
-🚀 **Aspiring Software Engineer** | 📍 Hyderabad, India  
-📫 **Email:** [vivekvardhan.akula@gmail.com](mailto:vivekvardhan.akula@gmail.com) | 🔗 **LinkedIn:** [linkedin.com/in/vivek-vardhan-084166210](https://www.linkedin.com/in/vivek-vardhan-084166210)  
+📞 +91 7989325150 | 📧 [vivekvardhan.akula@gmail.com](mailto:vivekvardhan.akula@gmail.com)  
+💼 [LinkedIn](https://www.linkedin.com/in/vivek-vardhan369) | 🌐 [GitHub](https://github.com/vivekvardhan369)  
 
 ---
 
-## 🎓 Education
+## 🚀 About Me
+
+I am an aspiring software developer passionate about building scalable, efficient, and secure applications. With a solid foundation in programming, development frameworks, and Agile methodologies, I thrive on solving challenging problems and delivering impactful solutions.
+
+---
+
+## 🏫 Education
 
 - **Bachelor of Technology in Information Technology**  
   *MLR Institute of Technology, Hyderabad, Telangana* (2020-2023)  
@@ -23,64 +29,59 @@
 
 ## 💻 Projects
 
-### 🔹 [System Design and Architecture for Online Food Delivery Application](#)
-- **Technologies:** AWS, MongoDB, ReactJS, Node.js  
-- Conducted research and planning for a scalable, high-performance, and secure online food delivery system.  
-- Designed scalable architecture for high availability and reliability.  
-- Proposed strategies to reduce page load time by 30%.  
+### 🔹 [Video Management Platform](https://github.com/vivekvardhan369/Video-Management-Platform.git)
+- **Technologies**: MERN Stack, Redux Toolkit, Jest  
+- Built a comprehensive video management platform with features like upload, categorization, and analytics tracking.  
 
-### 🔹 [I-Shop (E-Commerce Platform)](#)
-- **Technologies:** React, Node.js, MongoDB, Bootstrap  
-- Built a secure e-commerce platform with real-time inventory management.  
-- Developed multi-currency support and optimized product search time by 30%.  
-- Enhanced administrative efficiency with a comprehensive dashboard.  
+### 🔹 [To-Do Application](https://github.com/vivekvardhan369/To-do-Application.git)
+- **Technologies**: MERN Stack with TypeScript, Redux Toolkit  
+- Created a feature-rich to-do app with secure user authentication and appointment scheduling.  
 
-### 🔹 [Video Management Platform](#)
-- **Technologies:** MERN Stack (MongoDB, Express, React, Node.js), Redux Toolkit, Jest  
-- Built a system for video upload, categorization, and analytics tracking.  
-- Conducted performance optimizations and thorough testing.  
+### 🔹 System Design and Architecture for Online Food Delivery Application
+- **Technologies**: AWS, MongoDB, ReactJS, Node.js  
+- Designed a scalable architecture reducing page load times by 30%.  
 
-### 🔹 [To-Do Application](#)
-- **Technologies:** MERN Stack with TypeScript, Redux Toolkit  
-- Created a feature-rich to-do app with user authentication and secure APIs.  
-- Implemented robust testing strategies to improve reliability.  
+### 🔹 I-Shop (E-Commerce Platform)
+- **Technologies**: React, Node.js, MongoDB  
+- Developed a secure e-commerce platform with multi-currency cart and an efficient dashboard.  
 
 ---
 
-## 🔧 Technical Skills
+## 🛠️ Technical Skills
 
-- **Languages:** C, C++, JavaScript (ES7), TypeScript  
-- **Frameworks/Libraries:** React, Redux Toolkit, Node.js, Express, MongoDB, MySQL  
-- **Tools:** Git, Webpack, Babel, ESLint, Postman  
-- **Testing:** Jest, React Testing Library  
-- **Others:** RESTful APIs, Agile Methodologies, CI/CD, AWS  
+- **Languages**: C, C++, JavaScript (ES6+), TypeScript  
+- **Frameworks/Libraries**: React, Redux Toolkit, Node.js, Express, MongoDB, MySQL  
+- **Tools**: Git, Webpack, Babel, ESLint, Postman  
+- **Testing**: Jest, React Testing Library  
+- **Others**: RESTful APIs, Agile Methodologies, CI/CD, AWS  
 
 ---
 
-## 🏆 Certifications & Workshops
+## 📜 Certifications & Workshops
 
 - **AI and Machine Learning Workshop**  
-  E-CELL IIT Hyderabad & Techobytes Technologies | February 2024  
+  *E-CELL IIT Hyderabad and Techobytes Technologies* | February 2024  
 
 - **Communication Masterclass**  
-  Thinkschool | July 2023 - January 2024  
+  *Thinkschool* | July 2023 - January 2024  
 
 - **Introduction to JavaScript**  
-  Coding Ninjas | February 2021 - April 2021  
+  *Coding Ninjas* | February 2021 - April 2021  
 
-- **Git and GitHub Basics**  
-  Udemy | 1 Month  
-
----
-
-## ✨ Soft Skills
-
-- **Communication Skills:** Enhanced engagement through Thinkschool’s Communication Masterclass.  
-- **Adaptability:** Quick learning and implementation of scalable cloud solutions.  
-- **Teamwork:** Led teams as Scrum Master, achieving a 30% page load time reduction.  
-- **Problem Solving:** Resolved critical issues, ensuring timely project delivery.  
-- **Attention to Detail:** Delivered reliable APIs with comprehensive testing strategies.  
+- **Introduction to Git and GitHub**  
+  *Udemy* | 1 Month  
 
 ---
 
-💡 **Let’s collaborate!** I’m passionate about building scalable, secure, and user-centric applications. Feel free to explore my projects or connect with me via [LinkedIn](https://www.linkedin.com/in/vivek-vardhan-084166210) or [Email](mailto:vivekvardhan.akula@gmail.com).
+## 🏆 Soft Skills
+
+- **Communication**: Delivered impactful presentations and fostered team collaboration.  
+- **Adaptability**: Quickly learned new technologies and methodologies.  
+- **Teamwork**: Led cross-functional Agile teams, achieving measurable results.  
+- **Problem Solving**: Delivered timely solutions for critical system issues.  
+
+---
+
+💡 **Let’s connect!**  
+Feel free to explore my projects or reach out for collaboration opportunities!  
+[Email](mailto:vivekvardhan.akula@gmail.com) | [LinkedIn](https://www.linkedin.com/in/vivek-vardhan369) | [GitHub](https://github.com/vivekvardhan369)
